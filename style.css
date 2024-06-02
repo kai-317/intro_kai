@@ -1,0 +1,250 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: geo;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/top.jpg);
+  height: 994px;/* 高さ */
+  padding-top: 0px;/* 上がわの余白 */
+}
+
+
+/* ナビゲーションの箱 */
+nav {
+  font-family: geo;
+  font-size:30px;
+  background-color: #002C54;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;;
+  margin-right: 80px;
+}
+
+span{
+  border-bottom: 30px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: #efb509;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.information{
+  display: flex;
+  justify-content: center;
+}
+
+.moji{
+  color:#ffffff;
+  font-size: 120px;/* フォントの大きさ */
+  font-family: geo;/* フォントの種類 */
+  text-align: left;/* 文字・画像を中央にそろえる */
+  height: 650px;/* 高さ */
+  padding-top: 60px;/* 上がわの余白 */
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  writing-mode: vertical-rl;
+}
+
+.moji2{
+  color:#efb509;
+  font-size: 120px;/* フォントの大きさ */
+  font-family: geo;/* フォントの種類 */
+  text-align: left;/* 文字・画像を中央にそろえる */
+  height: 320px;/* 高さ */
+  padding-top: 0px;/* 上がわの余白 */
+  padding-left: 150px;
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  margin: 0;
+}
+
+
+.top{
+  font-size: 30px;
+  float: left;
+}
+
+.shop {
+  background-color: #ffffee;/* 背景の色 */
+  color: #002C54;
+  padding: 30px;
+  height: 1000px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 60px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffee;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+/* 大きな箱 */
+.big {
+  background-color: #002C54;
+  width: 500px;/* 横幅 */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float: left;
+  transform: rotate(0deg);/* 回転させる */
+}
+
+.big h3{
+  text-align: center;
+  font-size: 30px;
+  color:#ffffff;
+  margin-bottom: 0px;
+}
+
+.big img{
+  padding-bottom: 30px;
+}
+
+/* 小さな箱 */
+.small {
+
+  background-color: #002C54;
+  width: 1000px;/* 横幅 */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float: left;
+  transform: rotate(0deg);/* 回転させる */
+}
+
+.career{
+  display: inline-block;
+}
+
+.small h4{
+  text-align: left;
+  font-size: 50px;
+  color:#ffffff;
+  padding-top: 45px;
+  margin: 0px;
+}
+
+.small h3{
+  text-align: left;
+  font-size: 120px;
+  color:#efb509;
+  margin: 0px;
+  float: left;
+  width: 400px;
+}
+
+.s1{
+  margin-left: 60px;
+}
+.s2{
+  margin-left: 240px;
+}
+.s3{
+  margin-left: 480px;
+}
+.s4{
+  margin-left: 720px;
+}
+
+.mid{
+  background-color: #ffffff;
+  width: 150px;/* 横幅 */
+  padding: 15px;
+  margin: 150px 120px 100px 120px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float: left;
+  transform: rotate(0deg);/* 回転させる */
+}
+
+.mid h3 {
+  text-align: center;
+  color: #002C54;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+.mid h3:hover {
+  color: #efb509;
+}
+
+/* 箱 */
+.box {
+  float: left;
+}
+
+/* フッター */
+footer {
+  height: 500px;
+  background-color: #002C54;
+  color: #ffffff;
+}
+
+.fadein{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+
+.fadein2{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+
+.fadein3{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
